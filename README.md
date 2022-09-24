@@ -39,6 +39,6 @@ Brillouin zone (and takes much longer).
 
 ![Eigenvalues depending on the Bloch parameter](bloch_diagram.png)
 
-In this example we can see and band gap between the eigth and
+In this example we can see a band gap between the eigth and
 ninth eigenvalue that is present for all values of the Bloch
 parameter.
