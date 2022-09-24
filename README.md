@@ -18,13 +18,13 @@ are combined:
 - Galerkin discretization using bilinear Nedelec edge elements
 - Block preconditioned inverse iteration to compute the
   smallest eigenvalues
-- Geometric multigrid with Arnold-Falk-Winther smoother is used
+- Geometric multigrid with Arnold-Falk-Winther smoother
   as a preconditioner
-- Geometric multigrid for the Laplace operator is used in the
-  gradient space to eliminate the null space
-- Ritz-Galerkin techniques are used to solve the projected eigenvalue
+- Geometric multigrid for the Laplace operator with gradient
+  lifting to eliminate the null space
+- Ritz-Galerkin techniques to solve the projected eigenvalue
   problem in the subspace computed by the inverse iteration
-- Rayleigh quotient minimization is used to obtain initial
+- Rayleigh quotient minimization to obtain initial
   guesses for the next Bloch parameter
 
 ## Programs
@@ -38,3 +38,7 @@ non-zero eigenvalues along a curve in the Brillouin zone, and
 Brillouin zone (and takes much longer).
 
 ![Eigenvalues depending on the Bloch parameter](bloch_diagram.png)
+
+In this example we can see and band gap between the eigth and
+ninth eigenvalue that is present for all values of the Bloch
+parameter.
