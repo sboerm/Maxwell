@@ -50,3 +50,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Executables
+eigenview
+exp_bloch2d
+exp_blochsurf
+test_block2d
+test_edge2d
+test_grad2d
+test_jumps2d
+test_lobpcg2d
+test_lopcg2d
+test_mgedge2d
+test_mgnode2d
+test_node2d
+test_pinvit2d
